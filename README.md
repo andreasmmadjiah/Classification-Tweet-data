@@ -1,7 +1,7 @@
 # Classification-Tweet-data
 ## Created By Andreas Mulyarahardja
 <br><br>
-We are trying to build classification model to predict if user's tweet classified as Positive (1) or negative (0).
+We are trying to build classification model to predict if user's tweet classified as Positive (1) or negative (0). We are suing tweets data which we get from using pyspark to access server. This repositories is pure educational.
 
 <br><br>
 In this repositories, we want to classify from twitter tweets, if people has positive sentiment or negative. In general, our work process is :
@@ -16,7 +16,7 @@ In this repositories, we want to classify from twitter tweets, if people has pos
     - Removing stopwords
     - Word lemmatization
     - Data Visualization (using **Target** column)
-    - exporting data to csv
+    - exporting data to csv (which is df3.csv)
 3. Data sampling
 4. Data Split to train and test
 5. count vectorizer (to change text data to numeric using weight)
